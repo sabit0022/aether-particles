@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aether Particles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particleCanvas"></canvas>
+  <div id="ui">
+    <div id="status">System Ready. Show Hand.</div>
+    <div id="gesture">Gesture: —</div>
+    <div id="controls">
+      <button onclick="setMode('colorful')">Open: Colorful</button>
+      <button onclick="setMode('saturn')">Fist: Saturn</button>
+      <button onclick="setMode('vsign')">V-Sign: Text</button>
+      <button onclick="setch Love</button>
+    </div>
+  </div>
+
+  <!-- Handtrack.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs@1.1.0/dist/handtrack.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
